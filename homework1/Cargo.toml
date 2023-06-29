@@ -1,0 +1,73 @@
+[package]
+name = "homework1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "fizzbuzz"
+path = "src/fizzbuzz.rs"
+
+[[bin]]
+name = "rustbook1"
+path = "src/main.rs"
+
+[[bin]]
+name = "rustbook2"
+path = "src/guessing_game.rs"
+
+[[bin]]
+name = "rustbook3-1"
+path = "src/variables.rs"
+
+[[bin]]
+name = "rustbook3-3"
+path = "src/functions.rs"
+
+[[bin]]
+name = "rustbook3-5-1"
+path = "src/branches.rs"
+
+[[bin]]
+name = "rustbook3-5-2"
+path = "src/loops.rs"
+
+[[bin]]
+name = "hello_world"
+path = "projects/hello_world/src/main.rs"
+
+[[bin]]
+name = "hello_cargo"
+path = "projects/hello_cargo/src/main.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "projects/guessing_game/src/main.rs"
+
+[[bin]]
+name = "variables"
+path = "projects/variables/src/main.rs"
+
+[[bin]]
+name = "no_type_annotations"
+path = "projects/no_type_annotations/src/main.rs"
+
+[[bin]]
+name = "functions"
+path = "projects/functions/src/main.rs"
+
+[[bin]]
+name = "branches"
+path = "projects/branches/src/main.rs"
+
+[[bin]]
+name = "loops"
+path = "projects/loops/src/main.rs"
+
+[[bin]]
+name = "ownerships"
+path = "projects/ownerships/src/main.rs"
+
+[dependencies]
+rand = "0.8.5"
