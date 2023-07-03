@@ -39,8 +39,7 @@ impl Message {
         }
     }
 
-    let m = Message::Write(String::from("hello"));
-    m.call();
+
 	
 //enum Option<T> {
   //  None,
@@ -77,7 +76,7 @@ fn value_in_cents(coin: Coin) -> u8 {
 		}
         Coin::Nickel => 5,
         Coin::Dime => 10,
-        Coin::Quarter => {
+        Coin::Quarter(state) => {
 			println!("State quarter from {:?}!", state);
 			25
 		}
@@ -85,6 +84,8 @@ fn value_in_cents(coin: Coin) -> u8 {
 }
 
 fn main() {
+	let m = Message::Write(String::from("hello"));
+	m.call();
     //let home = IpAddr {
       //  kind: IpAddrKind::V4,
         //address: String::from("127.0.0.1"),
@@ -130,13 +131,24 @@ fn main() {
         println!("The maximum is configured to be {}", max);
     }
 	
-	let mut count = 0;
-    if let Coin::Quarter(state) = coin {
-        println!("State quarter from {:?}!", state);
-    } else {
-        count += 1;
-    }
+//	let mut count = 0;
+//    if let Coin::Quarter(state) = {
+//        println!("State quarter from {:?}!", state);
+//    } else {
+//        count += 1;
+//    }
 }
+
+fn ccccoins(coin: Coin) {
+	let mut count = 0;
+    match coin {
+        Coin::Quarter(state) => println!("State quarter from {:?}!", state),
+        _ => count += 1,
+	}
+}
+
+
+
 
 // fn route(ip_kind: IpAddrKind) {}
 

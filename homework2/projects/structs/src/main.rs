@@ -22,12 +22,12 @@ fn main() {
 	let user2 = User {
         email: String::from("another@example.com"),
         ..user1
+	};
 		
 	let black = Color(0, 0, 0);
     let origin = Point(0, 0, 0);
 	
 	let subject = AlwaysEqual;
-    };
 }
 
 fn build_user(email: String, username: String) -> User {
