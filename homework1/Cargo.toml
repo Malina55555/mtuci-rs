@@ -10,30 +10,6 @@ name = "fizzbuzz"
 path = "src/fizzbuzz.rs"
 
 [[bin]]
-name = "rustbook1"
-path = "src/main.rs"
-
-[[bin]]
-name = "rustbook2"
-path = "src/guessing_game.rs"
-
-[[bin]]
-name = "rustbook3-1"
-path = "src/variables.rs"
-
-[[bin]]
-name = "rustbook3-3"
-path = "src/functions.rs"
-
-[[bin]]
-name = "rustbook3-5-1"
-path = "src/branches.rs"
-
-[[bin]]
-name = "rustbook3-5-2"
-path = "src/loops.rs"
-
-[[bin]]
 name = "hello_world"
 path = "projects/hello_world/main.rs"
 
