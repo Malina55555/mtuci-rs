@@ -46,7 +46,7 @@ fn main() { // s is not valid here, it’s not yet declared
     let r3 = &mut s; // no problem
     println!("{}", r3);
 	
-	let reference_to_nothing = dangle();
+	let reference_to_nothing = no_dangle();
   
     // строковый срез
 	let s = String::from("hello world");
@@ -103,7 +103,7 @@ fn takes_and_gives_back(a_string: String) -> String { // a_string comes into
     a_string  // a_string is returned and moves out to the calling function
 }
     
-fn calculate_length(s: &String) -> (String, usize) {
+fn calculate_length(s: &String) -> (&String, usize) {
     let length = s.len(); // len() returns the length of a String
 
     (s, length)

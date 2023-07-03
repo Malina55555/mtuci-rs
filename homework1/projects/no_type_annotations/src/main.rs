@@ -1,3 +1,4 @@
+use std::io;
 fn main() {
     // логический тип
 	let t = true;

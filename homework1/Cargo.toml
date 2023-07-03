@@ -35,7 +35,7 @@ path = "src/loops.rs"
 
 [[bin]]
 name = "hello_world"
-path = "projects/hello_world/src/main.rs"
+path = "projects/hello_world/main.rs"
 
 [[bin]]
 name = "hello_cargo"
