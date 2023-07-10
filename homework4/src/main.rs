@@ -1,4 +1,6 @@
 use std::ptr;
+
+
 fn main() {}
 struct MyVector<T> {
 	inside: *mut T,
