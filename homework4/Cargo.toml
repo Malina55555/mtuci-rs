@@ -10,4 +10,4 @@ name = "my_vector"
 path = "src/main.rs"
 
 [dependencies]
-libc = "0.2.90"
+
