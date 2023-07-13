@@ -1,0 +1,36 @@
+[package]
+name = "homework5"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "collections"
+path = "projects/collections/src/main.rs"
+
+[[bin]]
+name = "panic"
+path = "projects/panic/src/main.rs"
+
+[[bin]]
+name = "error-handling"
+path = "projects/error-handling/src/main.rs"
+
+[[bin]]
+name = "chapter10"
+path = "projects/chapter10/src/main.rs"
+
+[[bin]]
+name = "backyard"
+path = "projects/backyard/src/main.rs"
+
+[[bin]]
+name = "adder"
+path = "projects/adder/src/lib.rs"
+
+[[bin]]
+name = "minigrep"
+path = "projects/minigrep/src/main.rs"
+
+[dependencies]

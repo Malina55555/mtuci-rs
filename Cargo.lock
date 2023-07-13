@@ -33,9 +33,10 @@ version = "0.1.0"
 [[package]]
 name = "homework4"
 version = "0.1.0"
-dependencies = [
- "libc",
-]
+
+[[package]]
+name = "homework5"
+version = "0.1.0"
 
 [[package]]
 name = "libc"
