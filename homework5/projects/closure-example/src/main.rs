@@ -1,11 +1,11 @@
 use std::thread;
 
 fn main() {
-    let expensive_closure = |num: u32| -> u32 {
-        println!("calculating slowly...");
-        thread::sleep(Duration::from_secs(2));
-        num
-    };
+    //let expensive_closure = |num: u32| -> u32 {
+      //  println!("calculating slowly...");
+        //thread::sleep(Duration::from_secs(2));
+        //num
+    //};
 	let add_one = |x| x + 1; //<=> fn  add_one_v1   (x: u32) -> u32 { x + 1 }
 	
 	let list = vec![1, 2, 3];
