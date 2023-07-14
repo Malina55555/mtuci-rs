@@ -33,4 +33,32 @@ path = "projects/adder/src/lib.rs"
 name = "minigrep"
 path = "projects/minigrep/src/main.rs"
 
+[[bin]]
+name = "shirt-company"
+path = "projects/shirt-company/src/main.rs"
+
+[[bin]]
+name = "closure-example"
+path = "projects/closure-example/src/main.rs"
+
+[[bin]]
+name = "rectangles"
+path = "projects/rectangles/src/main.rs"
+
+[[bin]]
+name = "iterators"
+path = "projects/iterators/src/main.rs"
+
+[[bin]]
+name = "cons-list"
+path = "projects/cons-list/src/main.rs"
+
+[[bin]]
+name = "deref-example"
+path = "projects/deref-example/src/main.rs"
+
+[[bin]]
+name = "drop-example"
+path = "projects/drop-example/src/main.rs"
+
 [dependencies]

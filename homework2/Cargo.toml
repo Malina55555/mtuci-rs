@@ -18,14 +18,6 @@ name = "enums"
 path = "projects/enums/src/main.rs"
 
 [[bin]]
-name = "backyard"
-path = "projects/backyard/src/main.rs"
-
-[[bin]]
-name = "restaurant"
-path = "projects/restaurant/src/lib.rs"
-
-[[bin]]
 name = "task1"
 path = "src/task1.rs"
 
