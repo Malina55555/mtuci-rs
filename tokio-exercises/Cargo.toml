@@ -1,4 +1,12 @@
-[workspace]
-members = [
-	"my-redis",
-	]
+[package]
+name = "tokio-exercises"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "echo-server"
+path = "src/bin/echo-server.rs"
+
+[[bin]]
+name = "echo-server-copy"
+path = "src/bin/echo-server-copy.rs"
